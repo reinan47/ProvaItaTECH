@@ -1,0 +1,166 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: 'normal';
+    font-size: 17px;
+}
+input,textarea{
+    text-indent: 8px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+}
+/*<botao>*/
+#botao{
+    border-radius: 0px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+}
+#botao:hover{
+    border-radius: 0px;
+    background: #1c69ce;
+    color: #FFFFFF;
+}
+/*</botao>*/
+.barra-pesquisa{
+    border-radius: 20px;
+    background-color:  #E5E5E5;
+    border :0px;
+    height: 40px;
+}
+#icon-barra-pesquisa img{
+    position: relative;
+    top: 3px;
+    right: 30px;
+    font-size: 18px;
+}
+/*<formulario>*/
+.flex-formulario{
+    display: flex;
+    background-color: #EAF2FD;
+    padding-left: 70px;
+    padding-top: 35px;
+}
+.flex-formulario-interno{
+    display: flex;
+    flex-direction: row;
+    background-color: #EAF2FD;
+    padding-right: 130px;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+.tamanho-botao-formulario{
+    width: 40%;
+    height: 60px;
+    border-radius: 4px;
+    border: #FFFFFF;
+}
+.tamanho-input-formulario{
+    width: 70%;
+    height: 60px;
+    border-radius: 4px;
+    border: #FFFFFF;
+}
+.tamanho-txa-formulario{
+    width: 70%;
+    height: 80px;
+    border-radius: 4px;
+    border: #FFFFFF;
+}
+a{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#tam-div-menor{
+    flex-grow: 1;
+}
+#tam-div-meio{
+    flex-grow: 2;
+    flex-basis: 500px;
+}
+#tam-div-maior{
+    flex-grow: 3;
+}
+
+/*</formulario>*/
+/*tablet 11 polegadas*/
+@media only screen and (max-width: 1056px){
+    .tablet{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tamanho-item-login{
+        width: 70%;
+        height: 50px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+    .tamanho-botao-formulario{
+        width: 80%;
+        height: 50px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+    .tamanho-input-formulario{
+        width: 80%;
+        height: 50px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+    .tamanho-txa-formulario{
+        width: 80%;
+        height: 80px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+    #botao{
+        width: 60%;
+        height: 50px;
+    }
+}
+/*tamnho do celular 6.5 polegadas*/
+@media only screen and (max-width: 624px){
+    .cell{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 35px;
+        padding-bottom: 20px;
+    }
+    .tamanho-botao-formulario{
+        width: 94%;
+        height: 60px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+    .tamanho-txa-formulario{
+        width: 94%;
+        height: 80px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+    .tamanho-input-formulario{
+        width: 94%;
+        height: 50px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+    #botao{
+        width: 50%;
+        height: 50px;
+    }
+    .tamanho-item-login{
+        width: 85%;
+        height: 50px;
+        border-radius: 4px;
+        border: #FFFFFF;
+    }
+}
